@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import messagebox, filedialog
 from tkinter.ttk import Progressbar, Style, Button, Label, Entry
 import threading
-from slide_extractor import SlideExtractor
+from Extractor import SlideExtractor
 from PIL import Image
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
